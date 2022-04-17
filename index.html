@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="button">
+            <button class="addtd">добавить столбец</button>
+            <button class="addtr">добавить строку</button>
+        </div>
+        <div class="table__table">
+            <table class="table" id="tableid">
+                <tr class="table__tr">
+                    <td class="table__td">1</td>
+                    <td class="table__td">2</td>
+                    <td class="table__td">3</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__td">4</td>
+                    <td class="table__td">5</td>
+                    <td class="table__td">6</td>
+                </tr>
+                <tr class="table__tr">
+                    <td class="table__td">7</td>
+                    <td class="table__td">8</td>
+                    <td class="table__td">9</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="contextmenu__del contextmenu">
+        <ul class="menu__list">
+            <li class="menu__item" class="menu__item__link">
+                <button class="menu__link" id="addstrup">Добавить строку сверху</button>
+            </li>
+            <li class="menu__item" class="menu__item__link">
+                <button class="menu__link" id="addstrdown">Добавить строку снизу</button>
+            </li>
+            <li class="menu__item" class="menu__item__link">
+                <button class="menu__link" id="addcolumnleft">Добавить столбец слева</button>
+            </li>
+            <li class="menu__item" class="menu__item__link">
+                <button class="menu__link" id="addcolumnright">Добавить столбец справа</button>
+            </li>
+            <li class="menu__item" class="menu__item__link">
+                <button class="menu__link" id="delstr">Удалить строку</button>
+            </li>
+            <li class="menu__item" class="menu__item__link">
+                <button class="menu__link" id="delcolumn">Удалить столбец</button>
+            </li>
+        </ul>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
